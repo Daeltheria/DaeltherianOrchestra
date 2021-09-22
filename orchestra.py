@@ -9,7 +9,7 @@ bot = commands.Bot(
   command_prefix="$", #make prefix as its required; wont be used.
   self_bot=True, #silence attempts at message commands
   description='A music bot.',
-  help_command=None #remove default help command (we wont need it),
+  help_command=None, #remove default help command (we wont need it)
   owner_ids = [
     #   Akins#1692   |   Minister of Commerce
     707643377621008447,
